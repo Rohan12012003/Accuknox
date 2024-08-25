@@ -43,8 +43,8 @@ accuknox/
 
 Clone the repository from GitHub:
 
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone git@github.com:Rohan12012003/Accuknox.git
+cd Accuknox
 
 ### 2. Install Dependencies
 
