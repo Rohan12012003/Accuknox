@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# Dashboard Page Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This project involves creating a dynamic dashboard page using React. The dashboard allows users to add, remove, and manage widgets within different categories. Users can also search for widgets and dynamically manage categories.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Dynamic Dashboard**: Build the dashboard and widgets based on a JSON file.
+2. **Add/Remove Widgets**: Users can add new widgets and remove existing ones from categories.
+3. **Search Widgets**: Search functionality to find widgets based on text.
+4. **Category Management**: Users can add new categories and manage widgets within them.
+5. **Responsive Layout**: Widgets wrap to the next line if there is no horizontal space available.
+6. **Persistent Management**: Changes are managed in the frontend and reflected dynamically.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Frontend framework for building user interfaces.
+- **Bootstrap**: CSS framework for styling.
 
-### `npm test`
+## Folder Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```plaintext
+accuknox/
+├── App.js
+├── backend/
+│   └── server.js
+├── components/
+│   ├── Add.jsx
+│   ├── dashboardData.json
+│   ├── Home.jsx
+│   ├── Navbar.jsx
+│   ├── SearchBar.jsx
+│   ├── Sections.jsx
+│   ├── SlidePanel.jsx
+│   └── Widget.jsx
+└── index.js
+```
 
-### `npm run build`
+## Setup Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository from GitHub:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
 
-### `npm run eject`
+### 2. Install Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install the required npm packages:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Start the Development Server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Run the development server:
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The application will be available at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Build for Production
 
-### Code Splitting
+To create a production build of the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm run build
 
-### Analyzing the Bundle Size
+The build will be created in the `build/` directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+### Adding a Widget
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Click on the "+ Add Widget" button in the desired category.
+2. Enter the widget name and text, then click "Add".
 
-### Advanced Configuration
+### Removing a Widget
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Click on the "X" icon on the widget you wish to remove.
 
-### Deployment
+### Adding a Category
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Click on the "+ Add Section" button.
+2. Enter the section name and click "Add".
 
-### `npm run build` fails to minify
+### Searching for Widgets
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Use the search bar in the Navbar to filter widgets by text.
+
+## Development Notes
+
+- **Responsive Design**: Ensure the dashboard layout adapts to different screen sizes.
+- **Testing**: The project uses `@testing-library/react` for component testing.
+
+
+## Contact
+This is done by Rohan Dutta
+phn no. 9832385294
+Email: rohandutta030620@gmail.com
+
+---
